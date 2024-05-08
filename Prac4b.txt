@@ -1,0 +1,36 @@
+1. Download Docker Desktop, if Windows 7 download Docker Toolbox
+2. Download nodejs from nodejs.org/en/downloads/
+
+1. Open Docker QuickStart Terminal (allow all the messages)
+> in that, run command 'docker --version'
+
+---OPEN VS CODE---
+1. In extensions, install 'Docker' certified by Microsoft
+2. Create a folder on dekstop <foldername> [don't use capital letters]
+> Create a docker file in it 'Dockerfile'
+> Create a .js file == filename.js
+
+in .js file, input the following program:
+CODE ==>
+console.log("Name: Siddharth Patil");
+console.log("Class: TE");
+console.log("Subject: Web Application Development");
+console.log("Assignment-2a3a");
+
+3. Open Dockerfile that you created, and input following program:
+CODE ==>
+FROM node:alpine
+COPY . /<foldername>                    #FOLDER NAME[in small letters]
+CMD node /<foldername>/filename.js
+
+---OPEN TERMINAL---
+> docker --version
+> node filename.js
+  shows the content of the file
+
+creating images
+> docker build -t <foldername> .
+  this command is building the container
+> docker images
+  to see the images
+

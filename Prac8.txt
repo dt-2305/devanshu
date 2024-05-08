@@ -1,0 +1,243 @@
+INDEX.HTML
+CODE==>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>Home | Artistic Arcadia </title>
+    <style>
+        .rows {
+            display: inline-block;
+            text-align: center;
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+    </style>
+</head>
+<body>
+    <div data-role = "page">
+        <div data-role = "header" data-theme="b">
+            <h1> Art Gallery </h1>
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+            <li><a href="index.html" class="ui-btn-active"> Home </a></li>
+            <li><a href="about_us.html"> About Us</a></li>
+            <li><a href="login_register.html"> Login/Register</a></li>
+            </ul>
+        </div>
+
+        <center> <h3> Products </h3></center>
+
+        <div class = "content">
+            <center>
+                <div class = "rows">
+                    <img src="monalisa.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;">Mona Lisa</p>
+                </div>
+                <div class = "rows">
+                    <img src="the_starry_night.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;">The Starry Night</p>
+                </div>
+                <div class = "rows">
+                    <img src="wanderer_above_the_sea.jpeg" height="250px" width="250px">
+                    <p style="margin-top: 5px;">Wanderer Above the Sea</p>
+                </div>
+                <div class = "rows">
+                    <img src="majnubhai.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> Horse and The Donkey </p>
+                </div>
+
+                <br>
+
+                <div class = "rows">
+                    <img src="the_last_supper.jpeg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> The Last Supper </p>
+                </div>
+                <div class = "rows">
+                    <img src="the_garden_of_earthly_delights.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> The Garden of Earthly Delights </p>
+                </div>
+                <div class = "rows">
+                    <img src="the_kiss.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> The Kiss </p>
+                </div>
+                <div class = "rows">
+                    <img src="napolean_crossing_alps.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> Napolean Crossing the Alps </p>
+                </div>
+
+                <br>
+
+                <div class = "rows">
+                    <img src="man_with_the_golden_helmet.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> The Man with the Golden Helmet </p>
+                </div>
+                <div class = "rows">
+                    <img src="blossom_almond_tree.jpg" height="250px" width="250px">
+                    <p style="margin-top: 5px;"> Blossoming Almond Tree </p>
+                </div>
+
+                <br>
+
+            </center>
+        </div>
+
+        <div data-role = "footer" data-theme="b">
+            <center>
+                <div class="quicklinks">
+                    <h3> Quick Links </h3>
+                    <a href="index.html"> Home </a> <br> <br>
+                    <a href="about_us.html"> About Us </a> <br> <br>
+                    <a href="login_register.html"> Login/Register </a> <br> <br>
+                </div>
+    
+                <p> Copyright 2024 | Artistic Arcadia, All Rights Reserved. </p>
+            </center>
+        </div>
+
+    </div>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+ABOUT_US.HTML
+CODE==>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>About Us | Artistic Arcadia</title>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>About Us</h1>
+            <a href="index.html" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html" class="ui-btn-active">About Us</a></li>
+                <li><a href="login_register.html">Login/Register</a></li>
+            </ul>
+        </div>
+
+        <div role="main" class="ui-content">
+            <h2>Welcome to Artistic Arcadia</h2>
+            <p>Our gallery is more than just a space to display artwork; it's a vibrant hub where creativity flourishes and connections are made. Established with a vision to celebrate the diverse talents of artists worldwide, Artistic Arcadia stands as a testament to the power of art to transcend boundaries and inspire change.</p>
+            <p>Nestled in the heart of Pune, our gallery exudes a welcoming atmosphere, inviting visitors to immerse themselves in the captivating world of art. From striking paintings to thought-provoking sculptures, each piece showcased within our walls tells a unique story and sparks conversations that resonate long after the visit.</p>
+            <p>We are deeply committed to supporting artists at every stage of their journey, providing a platform for emerging talents to gain exposure and established artists to reach new audiences. Our dedicated team works tirelessly to curate exhibitions that showcase the rich tapestry of artistic expression, fostering an environment where creativity thrives and innovation knows no bounds.</p>
+            <p>Beyond the gallery walls, Artistic Arcadia serves as a catalyst for community engagement and cultural enrichment. Through workshops, talks, and collaborative events, we seek to nurture a deeper appreciation for art and cultivate meaningful connections between artists and enthusiasts alike.</p>
+            <h4>Thank you for visiting us and being a part of our artistic journey. We look forward to sharing more extraordinary artwork with you!</h4>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h4>&copy; 2024 Artistic Arcadia</h4>
+        </div>
+    </div>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+LOGIN_REGISTER.HTML
+CODE==>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register | Yogesh Arts</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .register-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="login">
+        <div data-role="header" data-theme="b">
+            <h1>Login</h1>
+            <a href="index.html" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#login" class="ui-btn-active">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </div>
+
+        <div role="main" class="ui-content">
+            <form class="login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <input type="submit" value="Login">
+            </form>
+
+            <p>Don't have an account? <a href="#register">Register here</a>.</p>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h4>&copy; 2024 Yogesh Arts</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="register">
+        <div data-role="header" data-theme="b">
+            <h1>Register</h1>
+            <a href="index.html" data-icon="home" data-iconpos="notext">Home</a>
+            <a href="#" data-icon="bars" data-iconpos="notext">Menu</a>
+        </div>
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register" class="ui-btn-active">Register</a></li>
+            </ul>
+        </div>
+
+        <div role="main" class="ui-content">
+            <h2>Register for an Account</h2>
+            <form class="register-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+
+                <input type="submit" value="Register">
+            </form>
+
+            <p>Already have an account? <a href="#login">Login here</a>.</p>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h4>&copy; 2024 Yogesh Arts</h4>
+        </div>
+    </div>
+</body>
+</html>

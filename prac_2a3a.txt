@@ -1,0 +1,47 @@
+1. Download VS Code
+2. Download Git
+3. Create/Login to github.com
+4. Create a folder on Desktop with <Seat_no> and add the folder to VSCode workspace.
+
+---OPEN TERMINAL---
+> mkdir Prac2         == to create a folder 'Prac2' in your <Seat_no> folder
+> cd Prac2            == changing directory to the created folder
+> git --version       == to check whether git is succesfully installed or not
+
+---OPEN GITHUB.COM---
+1. create a repository for this practical
+
+---BACK TO VS CODE---
+1. In workspace, right click on your folder 'Prac2' and create a 'file1.txt' file
+2. Add following details in the file, and save it.
+Name: Siddharth Patil
+Class: TE
+Subject: Web Application Development
+Description: This is file-1
+
+---BACK TO TERMINAL---
+> 'git init' to iniitialize repo in our local machine
+> 'git add .'
+> 'git status'
+> you need to give your repository link that you created. so,
+  run command 'git remote add origin "<repo_link>"
+> To commit changes
+  git commit -m "First Commit"
+> git status
+
+AFTER COMMITING, WE'VE TO PUSH THIS TO OUR REPOSITORY
+> git push -u origin master
+
+---OPEN CHROME---
+open your github repo, and refresh it.
+you'll see your 'file.txt' file
+
+---IF YOU WANT TO PUSH ONE MORE FILE---
+1. Create a file 'file2.txt'
+2. Paste the same content as file1.txt just change description
+--IN TERMINAL--
+> git add .
+> git status
+> git commit -m "Second Commit"
+
+

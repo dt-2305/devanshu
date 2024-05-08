@@ -1,0 +1,45 @@
+1. Create a folder for your practical and ADD the folder to VS Code
+2. Open cmd in practical folder
+3. run command 'npm init' which helps to create package.json file
+4. fill the details for .json file[in cmd]
+   > description: This is WAD Practical 6
+   > author: <your_name>
+5. To download express modules, run a command in cmd:
+   > npm install express --save
+
+---OPEN VS CODE---
+
+1. Create file 'index.js'
+CODE ==>
+const express = require('express'); //importing express module in this project
+const app = express(); //calling express function
+
+app.use(express.static('public')) // giving path where index.html file is located
+
+app.listen(4000,() => {  //Providing Port Number
+    console.log("Server is Started")
+})
+// after <4000> we're giving a callback function to check whether server has started or not
+
+2. Create separate folder 'public' > create file 'index.html'
+CODE ==>
+//TYPE html5 to get the body of html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node JS</title>
+</head>
+<body>
+    <h1>This is Static Web Page</h1>
+</body>
+</html>
+
+---BACK TO CMD---
+1. run command 'node index.js'
+
+---OPEN YOUR BROWSER[CHROME]---
+> type 'localhost:4000'
+and a static web page will be created
+IF YOUR PORT NO. DOESN'T WORK, CHANGE YOUR PORT NO. from INDEX.JS FILE
